@@ -47,7 +47,7 @@ header {
     font-weight: 100;
     font-size: 46px;
     margin-top: 50px;
-    color: #ffffff;
+    color: #fff;
 }
 
 .title {
@@ -56,11 +56,11 @@ header {
     font-size: 28px;
     margin-top: 20px;
     margin-bottom: 90px;
-    color: #ffffff;
+    color: #fff;
 }
 
 
-.list-inline-item:not(:last-child) {
+.list-inline-item:not(:last-child){
     margin: 0;
 }
 
@@ -69,6 +69,10 @@ header {
 }
 
 #nav {
+    margin: 0;
+}
+
+#nav li {
     font-size: 14px;
     padding: 0;
 }
